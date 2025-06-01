@@ -55,5 +55,21 @@ The models are evaluated using metrics such as Root Mean Square Error (RMSE) to 
 
 This evaluation is crucial for ensuring that the recommendation system provides accurate and relevant suggestions to users.
 
+## GUI Overview
+The graphical user interface (GUI) of the recommendation system serves as the primary interaction point for users. It is designed to provide an intuitive and user-friendly experience, allowing users to easily access the functionalities of the recommendation system.
+
+### GUI Features
+- **User Input**: The GUI allows users to input their preferences, such as user ID and geographical location, which are essential for generating personalized recommendations.
+- **Recommendation Display**: Once the user inputs their preferences, the GUI displays a list of recommended businesses tailored to the user's tastes and location. This feature leverages the underlying Graph Neural Network models to provide accurate and relevant suggestions.
+- **Visual Feedback**: The GUI provides visual feedback, such as loading indicators and success messages, to enhance user experience and ensure that users are informed about the status of their requests.
+
+### Relation to the Program
+The GUI acts as a bridge between the user and the recommendation system's backend. It simplifies the interaction with complex algorithms and data processing, making it accessible to users without technical expertise. By utilizing the GUI, users can seamlessly generate recommendations without needing to understand the underlying processes.
+
+### GUI Image
+Below is an image of the GUI, showcasing its layout and features:
+
+![GUI Image](GUI_Image.png)
+
 ## Conclusion
 This project provides a comprehensive framework for building a recommendation system using graph neural networks. The modular structure allows for easy updates and improvements to the data processing, training, and prediction components.
